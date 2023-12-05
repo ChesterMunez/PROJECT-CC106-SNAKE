@@ -75,7 +75,7 @@ const gameEngine=()=>
     if (isCollide(snakebody)) {
         bgSound.pause();
         
-        alert("Gameover! Press ENTER to play again");
+        alert("Gameover! Press ENTER to play again.");
         snakebody=[
             {x:13, y:16},
         ]; 
